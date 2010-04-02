@@ -55,6 +55,7 @@ include 'includes/common.inc.php';
 	  <p> 
 	    <!--<a class="drapeau" href="it/index.html">it</a>
 	    <a class="drapeau" href="es/index.html">es</a>-->
+            <a <?php if ($lang == "de") echo "id=\"selected-lang\""?> class="drapeau" href="de/index.html">de</a>
 	    <a <?php if ($lang == "fr") echo "id=\"selected-lang\""?> class="drapeau" href="fr/index.html">fr</a> 
 	    <a <?php if ($lang == "en") echo "id=\"selected-lang\""?> class="drapeau" href="/index.html">en</a>
 
